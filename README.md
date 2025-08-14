@@ -55,3 +55,111 @@ It processes requests and sends responses.
 | HEAD    | Retrieve headers only (no body)    | Yes   | Yes         | 200, 304             |
 | OPTIONS | Check supported methods / CORS     | Yes   | Yes         | 200, 204             |
 
+-------------------------------------------------------------------------------------------------------------------------------
+### 
+
+What is **API Testing** ?
+
+1.  API testing checks if an API works as expected.
+    
+2.  It tests functionality, reliability, performance, and security.  
+    
+3.  It does not use a user interface.
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+### 🔍 GET – Retrieve data
+
+### 
+
+📌 **What it does:** Fetches data from the server **without changing it**.  
+📱 **Example:** Viewing your profile details in an app.  
+💻 **Sample:**
+
+`GET /users/101`
+
+🖼️
+
+* * *
+
+### ✉️ POST – Send new data
+
+### 
+
+📌 **What it does:** Sends data to the server to **create** a new resource or trigger an action.  
+📱 **Example:** Registering a new account.  
+💻 **Sample:**
+
+`POST /users Body: { "name": "Asha", "email": "asha@example.com" }`
+
+🖼️
+
+* * *
+
+### 🔄 PUT – Update existing data completely
+
+### 
+
+📌 **What it does:** **Replaces** the entire resource with new data.  
+📱 **Example:** Changing all details of a user profile.  
+💻 **Sample:**
+
+`PUT /users/101 Body: { "name": "Asha Patil", "email": "asha@new.com" }`
+
+🖼️
+
+* * *
+
+### 🛠️ PATCH – Update partial data
+
+### 
+
+📌 **What it does:** Updates **only specific fields** in a resource.  
+📱 **Example:** Updating just your email address without changing other details.  
+💻 **Sample:**
+
+`PATCH /users/101 Body: { "email": "asha@update.com" }`
+
+🖼️
+
+* * *
+
+### 🗑️ DELETE – Remove data
+
+### 
+
+📌 **What it does:** Deletes the resource from the server.  
+📱 **Example:** Removing a user account.  
+💻 **Sample:**
+
+`DELETE /users/101`
+
+🖼️
+
+* * *
+
+### 📄 HEAD – Retrieve metadata only
+
+### 
+
+📌 **What it does:** Similar to GET, but **returns only headers** (no content).  
+📱 **Example:** Checking the last modified date of a file.  
+💻 **Sample:**
+
+`HEAD /files/report.pdf`
+
+🖼️
+
+* * *
+
+### ⚙️ OPTIONS – Check supported methods
+
+### 
+
+📌 **What it does:** Shows which HTTP methods are **allowed** for a specific resource.  
+📱 **Example:** Checking if you can POST or DELETE to a certain URL.  
+💻 **Sample:**
+
+`OPTIONS /users Response: Allow: GET, POST, PUT, DELETE`
+
+🖼️
