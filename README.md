@@ -159,3 +159,43 @@ What is **API Testing** ?
 *   Examples: username, password, biometric data.
 
 * * *
+## 
+
+**🍪 What is a Cookie?**
+*   A cookie is small data   
+*   It is stored in the browser.  
+*   A website saves it.  
+*   It remembers login status, preferences, or cart items.  
+    **Example**    
+    *    You log into an e-commerce site.   
+    *   It remembers your cart after closing the browser.   
+    *   This happens because of cookies.
+ 
+  * * *
+
+  # How to test API Testing –
+
+| Step | Description                                  |
+|------|------------------------------------------------------|
+| 1    | Understand the API – Read documentation, endpoints, methods, parameters.|
+| 2    | Choose a testing tool – Postman, SoapUI, cURL, RestAssured, etc. |
+| 3    | Set up the request – Method, URL, headers, body.     | 
+| 4    | Send request & check response – Status, headers, body. |
+| 5    | Validate results – Status codes, data, headers, errors. | 
+| 6    | Test functional, performance, security aspects.     | 
+| 7    | Automate tests if needed – Scripts, collections.    |
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+# API Request Components – Summary
+
+| Component         | English Description                                                                                 | Marathi Description                                                                 |
+|-------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Endpoint (URL/URI) | The address where the API is available, pointing to a specific resource.                           | API उपलब्ध असलेला पत्ता, जो विशिष्ट संसाधनाकडे निर्देशित करतो.                      |
+| HTTP Method (Verb) | Action to perform on the resource (GET, POST, PUT, PATCH, DELETE, etc.).                            | संसाधनावर करावयाची कृती (GET, POST, PUT, PATCH, DELETE इ.).                        |
+| Headers           | Key–value pairs carrying metadata like `Content-Type`, `Accept`, `Authorization`, `User-Agent`.    | `Content-Type`, `Accept`, `Authorization`, `User-Agent` यांसारखी मेटाडेटा असणारी जोड. |
+| Body (Payload)    | Actual data sent to the server, usually in JSON/XML; used in POST, PUT, PATCH.                       | सर्व्हरला पाठवलेला वास्तविक डेटा, सहसा JSON/XML मध्ये; POST, PUT, PATCH मध्ये वापरला जातो. |
+| Query Parameters  | Optional key–value pairs after `?` for filtering, sorting, or pagination.                            | `?` नंतरचे पर्यायी की–व्हॅल्यू जोड, फिल्टरिंग, सॉर्टिंग किंवा पेजिनेशनसाठी.          |
+| Path Parameters   | Values in the URL path identifying a specific resource.                                              | विशिष्ट संसाधन ओळखण्यासाठी URL पाथमधील मूल्ये.                                     |
+
+* * *
