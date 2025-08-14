@@ -60,11 +60,16 @@ It processes requests and sends responses.
 
 What is **API Testing** ?
 
-1.  API testing checks if an API works as expected.
-    
-2.  It tests functionality, reliability, performance, and security.  
-    
-3.  It does not use a user interface.
+1.  API testing checks if an API works as expected. 
+2.  It tests functionality, reliability, performance, and security. 
+3.  It does not use a user interface. 
+It is important because it helps with:
+
+*   Early defect detection
+*   Faster feedback loop
+*   Decoupled testing
+*   Improved test coverage
+*   Enhanced reliability
 
 
 -------------------------------------------------------------------------------------------------------------------------------
@@ -199,3 +204,21 @@ What is **API Testing** ?
 | Path Parameters   | Values in the URL path identifying a specific resource.                                              | विशिष्ट संसाधन ओळखण्यासाठी URL पाथमधील मूल्ये.                                     |
 
 * * *
+
+# 🧪 API Testing Types – English & Marathi
+
+| **Type** | **Emoji** | **English (Short)** | **Marathi (Short)** |
+|----------|-----------|---------------------|---------------------|
+| **Functional Testing** | ✅ | Checks if API works as expected. Tests positive, negative, edge cases. | API अपेक्षित कार्य करते का ते तपासते. सकारात्मक, नकारात्मक, सीमेवरील चाचण्या. |
+| **Performance Testing** | 🚀 | Measures speed, stability, scalability under different loads. | गती, स्थिरता, क्षमता विविध लोडमध्ये मोजते. |
+| **Security Testing** | 🔒 | Finds security issues: auth bypass, SQL injection, XSS, encryption flaws. | सुरक्षा त्रुटी शोधते: प्रमाणीकरण बायपास, SQL इंजेक्शन, XSS, एन्क्रिप्शन समस्या. |
+| **Reliability Testing** | ♻️ | Ensures API connects and works correctly every time. | API सतत जोडते आणि योग्य कार्य करते याची खात्री करते. |
+| **Load Testing** | 📊 | Tests under normal user load. | सामान्य वापर लोडखाली तपासते. |
+| **Stress Testing** | 💥 | Pushes API beyond normal limits. Finds breaking points. | API ला मर्यादेपलीकडे ढकलते. ब्रेकिंग पॉइंट शोधते. | 
+| **Fuzz Testing** | 🎲 | Sends random or wrong data to find crashes or bugs. | यादृच्छिक किंवा चुकीचा डेटा पाठवते. क्रॅश किंवा त्रुटी शोधते. | 
+| **Validation Testing** | ✔️ | Checks if response is correct and in right format. | प्रतिसाद योग्य आणि अपेक्षित स्वरूपात आहे का ते तपासते. |
+| **UI Testing** (API context) | 🖥️ | Ensures UI talks to API and shows data correctly. | UI API शी योग्य संवाद साधते आणि डेटा योग्य दाखवते. |
+| **Interoperability Testing** | 🔗 | Ensures API works with other APIs or systems. | API इतर API किंवा सिस्टीमसोबत योग्य कार्य करते. |
+| **Contract Testing** | 📜 | Verifies API follows rules agreed between provider and consumer. | पुरवठादार-ग्राहक यांच्यातील ठरलेले नियम पाळते का ते तपासते. |
+* * * *
+
