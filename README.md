@@ -78,8 +78,6 @@ What is **API Testing** ?
 
 `GET /users/101`
 
-🖼️
-
 * * *
 
 ### ✉️ POST – Send new data
@@ -91,8 +89,6 @@ What is **API Testing** ?
 💻 **Sample:**
 
 `POST /users Body: { "name": "Asha", "email": "asha@example.com" }`
-
-🖼️
 
 * * *
 
@@ -106,8 +102,6 @@ What is **API Testing** ?
 
 `PUT /users/101 Body: { "name": "Asha Patil", "email": "asha@new.com" }`
 
-🖼️
-
 * * *
 
 ### 🛠️ PATCH – Update partial data
@@ -119,8 +113,6 @@ What is **API Testing** ?
 💻 **Sample:**
 
 `PATCH /users/101 Body: { "email": "asha@update.com" }`
-
-🖼️
 
 * * *
 
@@ -134,7 +126,6 @@ What is **API Testing** ?
 
 `DELETE /users/101`
 
-🖼️
 
 * * *
 
@@ -148,8 +139,6 @@ What is **API Testing** ?
 
 `HEAD /files/report.pdf`
 
-🖼️
-
 * * *
 
 ### ⚙️ OPTIONS – Check supported methods
@@ -161,5 +150,12 @@ What is **API Testing** ?
 💻 **Sample:**
 
 `OPTIONS /users Response: Allow: GET, POST, PUT, DELETE`
+-------------------------------------------------------------------------------------------------------------------------------
+## 🔐 What is Authentication?
 
-🖼️
+### *   Authentication checks identity.
+*   It is for a user or system.
+*   It verifies using credentials.   
+*   Examples: username, password, biometric data.
+
+* * *
