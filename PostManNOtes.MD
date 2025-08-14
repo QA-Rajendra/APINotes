@@ -361,6 +361,244 @@ Edit
         
 
 * * *
+## 1\. Introduction / ओळख
+
+# 
+
+*   **English:** Postman is a tool used for designing, testing, and documenting APIs.
+    
+*   **Marathi:** Postman हे API डिझाइन, टेस्ट आणि डॉक्युमेंट करण्यासाठी वापरले जाणारे साधन आहे.
+    
+
+* * *
+
+## 2\. How to call REST API in Postman / Postman मध्ये REST API कशी कॉल करावी
+
+# 
+
+*   **English:** Select HTTP method → Enter API URL → Add required parameters → Click Send.
+    
+*   **Marathi:** HTTP पद्धत निवडा → API URL टाका → आवश्यक parameters जोडा → Send क्लिक करा.
+    
+
+* * *
+
+## 3\. How to pass Path Parameter / Path Parameter कसे द्यावे
+
+# 
+
+*   **English:** Put the variable directly in the URL like `/users/{id}`. Replace `{id}` with actual value.
+    
+*   **Marathi:** URL मध्ये `/users/{id}` सारखे व्हेरीएबल थेट द्या. `{id}` ऐवजी प्रत्यक्ष मूल्य भरा.
+    
+
+* * *
+
+## 4\. How to pass Query Parameter / Query Parameter कसे द्यावे
+
+# 
+
+*   **English:** Use `Params` tab → Add key and value. Example: `?status=active&page=2`.
+    
+*   **Marathi:** `Params` टॅब वापरा → Key आणि Value भरा. उदाहरण: `?status=active&page=2`.
+    
+
+* * *
+
+## 5\. How to set Headers / Headers कसे सेट करावे
+
+# 
+
+*   **English:** Go to `Headers` tab → Add key-value like `Content-Type: application/json`.
+    
+*   **Marathi:** `Headers` टॅबमध्ये जा → `Content-Type: application/json` सारखे Key-Value भरा.
+    
+
+* * *
+
+## 6\. How to pass JSON/XML Payload / JSON किंवा XML Payload कसा द्यावा
+
+# 
+
+*   **English:** `Body` tab → Select `raw` → Choose `JSON` or `XML` → Paste data.
+    
+*   **Marathi:** `Body` टॅब → `raw` निवडा → `JSON` किंवा `XML` निवडा → डेटा पेस्ट करा.
+    
+
+* * *
+
+## 7\. How to check Response Status Code / Response Status Code कसा तपासावा
+
+# 
+
+*   **English:** See the top-right of the response panel (e.g., `200 OK`).
+    
+*   **Marathi:** रिस्पॉन्स पॅनेलच्या वरच्या उजव्या बाजूला पहा (उदा., `200 OK`).
+    
+
+* * *
+
+## 8\. How to check JSON/XML Response Messages / JSON किंवा XML Response Messages कसे पाहावेत
+
+# 
+
+*   **English:** View in `Body` section after request execution.
+    
+*   **Marathi:** रिक्वेस्ट चालवल्यानंतर `Body` सेक्शनमध्ये पहा.
+    
+
+* * *
+
+## 9\. What is Response Header / Response Header म्हणजे काय
+
+# 
+
+*   **English:** It contains metadata about the response like `Content-Type`, `Server`, etc.
+    
+*   **Marathi:** यात रिस्पॉन्सविषयी मेटाडेटा असते, जसे `Content-Type`, `Server` इत्यादी.
+    
+
+* * *
+
+## 10\. Cookies Manipulation / Cookies बदलणे
+
+# 
+
+*   **English:** Check and edit cookies from the `Cookies` tab in Postman.
+    
+*   **Marathi:** Postman मध्ये `Cookies` टॅबमधून कुकीज तपासा आणि संपादित करा.
+    
+
+* * *
+
+## 11\. Header Presets / हेडर प्रीसेट्स
+
+# 
+
+*   **English:** Save frequently used headers for quick reuse.
+    
+*   **Marathi:** वारंवार वापरले जाणारे हेडर्स सेव्ह करा जेणेकरून पटकन वापरता येतील.
+    
+
+* * *
+
+## 12\. API History in Postman / Postman मधील API इतिहास
+
+# 
+
+*   **English:** Use `History` tab to view and reuse past requests.
+    
+*   **Marathi:** `History` टॅब वापरून मागील रिक्वेस्ट पाहा आणि पुन्हा वापरा.
+    
+
+* * *
+
+## 13\. Postman Environment Variables / Postman मधील Environment Variables
+
+# 
+
+*   **English:** Store dynamic values as Local, Global, or Collection-level variables.
+    
+*   **Marathi:** डायनॅमिक व्हॅल्यू Local, Global किंवा Collection लेव्हलवर सेव्ह करा.
+    
+
+* * *
+
+## 14\. Postman Test Scripts using JavaScript & Chai / JavaScript व Chai वापरून Test Scripts
+
+# 
+
+*   **English:** Write scripts in `Tests` tab, e.g., `pm.expect(pm.response.code).to.equal(200);`.
+    
+*   **Marathi:** `Tests` टॅबमध्ये स्क्रिप्ट लिहा, उदा., `pm.expect(pm.response.code).to.equal(200);`.
+    
+
+* * *
+
+## 15\. Run Automated Test Cases & Generate Results / ऑटोमेटेड टेस्ट केसेस चालवणे आणि रिपोर्ट बनवणे
+
+# 
+
+*   **English:** Use `Collection Runner` to execute tests and export reports.
+    
+*   **Marathi:** `Collection Runner` वापरून टेस्ट चालवा आणि रिपोर्ट एक्सपोर्ट करा.
+    
+
+* * *
+
+## 16\. Advanced Postman/Newman / अॅडव्हान्स Postman/Newman
+
+# 
+
+*   **English:** Newman is CLI tool for running Postman collections outside the UI.
+    
+*   **Marathi:** Newman हा CLI टूल आहे जो Postman कलेक्शन UI शिवाय चालवतो.
+    
+
+* * *
+
+## 17\. Introduction of Newman / Newman म्हणजे काय
+
+# 
+
+*   **English:** Newman runs Postman collections via command line.
+    
+*   **Marathi:** Newman कमांड लाइनवरून Postman कलेक्शन चालवतो.
+    
+
+* * *
+
+## 18\. Newman Installation/Setup / Newman इन्स्टॉलेशन
+
+# 
+
+*   **English:** Install with `npm install -g newman`.
+    
+*   **Marathi:** `npm install -g newman` वापरून इन्स्टॉल करा.
+    
+
+* * *
+
+## 19\. Run Collections from Newman / Newman मधून कलेक्शन चालवणे
+
+# 
+
+*   **English:** Command: `newman run collection.json`.
+    
+*   **Marathi:** कमांड: `newman run collection.json`.
+    
+
+* * *
+
+## 20\. Newman Command Line Options / Newman कमांड लाइन ऑप्शन्स
+
+# 
+
+*   **English:** Examples: `--environment`, `--iteration-data`, `--reporters`.
+    
+*   **Marathi:** उदाहरण: `--environment`, `--iteration-data`, `--reporters`.
+    
+
+* * *
+
+## 21\. Generate HTML Test Report / HTML टेस्ट रिपोर्ट तयार करणे
+
+# 
+
+*   **English:** Use `newman run collection.json -r html`.
+    
+*   **Marathi:** `newman run collection.json -r html` वापरा.
+    
+
+* * *
+
+## 22\. Create Collection & Folders / कलेक्शन व फोल्डर तयार करणे
+
+# 
+
+*   **English:** Group APIs into folders for organization.
+    
+*   **Marathi:** API नीट व्यवस्थित ठेवण्यासाठी फोल्डरमध्ये गटबद्ध करा.
 
 # 14\. Example Postman Workflow (step-by-step) / Postman वर्कफ्लो (टप्प्याटप्प्याने)
 
@@ -428,3 +666,256 @@ Edit
     *   संक्षिप्त चीट-शीट बनवू शकतो, किंवा
         
     *   नमुना Postman collection आणि environment JSON फाइल्स तयार करू शकतो.
+
+*****
+##   
+
+## 23\. Create a Collection from API Specification or API Schema / API Specification किंवा Schema पासून कलेक्शन तयार करणे
+
+## 
+
+*   **English:** Import OpenAPI/Swagger schema → Postman auto-generates requests.
+    
+*   **Marathi:** OpenAPI/Swagger स्कीमा इम्पोर्ट करा → Postman आपोआप रिक्वेस्ट तयार करतो.
+    
+
+* * *
+
+## 24\. Maintenance of API Collections / API कलेक्शनचे देखभाल
+
+## 
+
+*   **English:** Update, rename, organize, and delete APIs regularly.
+    
+*   **Marathi:** API अपडेट करा, नाव बदला, व्यवस्थित लावा आणि गरज नसल्यास डिलीट करा.
+    
+
+* * *
+
+## 25\. Postman Console and Logs / Postman Console आणि Logs
+
+## 
+
+*   **English:** View detailed request/response logs for debugging.
+    
+*   **Marathi:** डीबगिंगसाठी सविस्तर रिक्वेस्ट/रिस्पॉन्स लॉग पहा.
+    
+
+* * *
+
+## 26\. Test Script in Postman / Postman मधील Test Script
+
+## 
+
+*   **English:** Code in `Tests` tab to verify API responses automatically.
+    
+*   **Marathi:** API रिस्पॉन्स आपोआप तपासण्यासाठी `Tests` टॅबमध्ये कोड लिहा.
+    
+
+* * *
+
+## 27\. Pre-request Script in Postman / Pre-request Script म्हणजे काय
+
+## 
+
+*   **English:** Code that runs before sending the request.
+    
+*   **Marathi:** रिक्वेस्ट पाठवण्यापूर्वी चालणारा कोड.
+    
+
+* * *
+
+## 28\. Test Code Snippet in Postman / Test Code Snippet
+
+## 
+
+*   **English:** Ready-made code samples for quick testing.
+    
+*   **Marathi:** पटकन टेस्ट करण्यासाठी तयार कोड उदाहरणे.
+    
+
+* * *
+
+## 29\. Monitoring of APIs / API मॉनिटरिंग
+
+## 
+
+*   **English:** Schedule API checks to ensure uptime and performance.
+    
+*   **Marathi:** API चालू आहे का आणि व्यवस्थित चालते का हे वेळोवेळी तपासा.
+    
+
+* * *
+
+## 30\. API Documentation / API डॉक्युमेंटेशन
+
+## 
+
+*   **English:** Auto-generate API reference from collections.
+    
+*   **Marathi:** कलेक्शनपासून आपोआप API डॉक्युमेंट तयार करा.
+    
+
+* * *
+
+## 31\. API Documentation/Codes in Different Programming Languages / वेगवेगळ्या भाषेत API कोड
+
+## 
+
+*   **English:** Postman shows code snippets for Java, Python, JS, etc.
+    
+*   **Marathi:** Postman Java, Python, JS इत्यादी भाषांमध्ये कोड उदाहरणे दाखवतो.
+    
+
+* * *
+
+## 32\. Publish Documentation / डॉक्युमेंटेशन पब्लिश करणे
+
+## 
+
+*   **English:** Share public API docs via Postman’s hosting link.
+    
+*   **Marathi:** Postman च्या होस्टिंग लिंकद्वारे पब्लिक API डॉक्युमेंट शेअर करा.
+    
+
+* * *
+
+## 33\. Setup Environment – Local and Global / Local व Global Environment सेट करणे
+
+## 
+
+*   **English:** Define variables that can be reused across requests.
+    
+*   **Marathi:** वेगवेगळ्या रिक्वेस्टमध्ये वापरता येतील असे व्हेरीएबल्स सेट करा.
+    
+
+* * *
+
+## 34\. Collection Runner / कलेक्शन रनर
+
+## 
+
+*   **English:** Run multiple API requests in sequence automatically.
+    
+*   **Marathi:** अनेक API रिक्वेस्ट एकामागून एक आपोआप चालवा.
+    
+
+* * *
+
+## 35\. Collection Test Summary / कलेक्शन टेस्ट सारांश
+
+## 
+
+*   **English:** Shows total tests, passes, and failures.
+    
+*   **Marathi:** एकूण टेस्ट, पास झालेल्या आणि फेल झालेल्या टेस्ट दाखवते.
+    
+
+* * *
+
+## 36\. Creating a Mock Server for APIs / API साठी Mock Server तयार करणे
+
+## 
+
+*   **English:** Create fake API responses for testing without backend.
+    
+*   **Marathi:** Backend शिवाय टेस्ट करण्यासाठी बनावट API रिस्पॉन्स तयार करा.
+    
+
+* * *
+
+## 37\. How to Create a Team Workspace / टीम वर्कस्पेस तयार करणे
+
+## 
+
+*   **English:** Share collections and APIs with team members.
+    
+*   **Marathi:** कलेक्शन आणि API टीमसोबत शेअर करा.
+    
+
+* * *
+
+## 38\. How to Create Individual Workspace / वैयक्तिक वर्कस्पेस तयार करणे
+
+## 
+
+*   **English:** Personal space for private API development.
+    
+*   **Marathi:** वैयक्तिक API डेव्हलपमेंटसाठी खास जागा.
+    
+
+* * *
+
+## 39\. Import in Postman / Postman मध्ये इम्पोर्ट करणे
+
+## 
+
+*   **English:** Import collections, environments, or schema files.
+    
+*   **Marathi:** कलेक्शन, एन्व्हायर्नमेंट किंवा स्कीमा फायली इम्पोर्ट करा.
+    
+
+* * *
+
+## 40\. Basic and Advanced Settings in REST Client / REST Client चे बेसिक व अॅडव्हान्स सेटिंग्स
+
+## 
+
+*   **English:** Change timeout, SSL verification, proxy, etc.
+    
+*   **Marathi:** Timeout, SSL verification, proxy इत्यादी सेटिंग बदला.
+    
+
+* * *
+
+## 41\. Running Postman Collection with Docker / Docker मधून कलेक्शन चालवणे
+
+## 
+
+*   **English:** Run Newman inside a Docker container.
+    
+*   **Marathi:** Docker कंटेनरमध्ये Newman वापरून कलेक्शन चालवा.
+    
+
+* * *
+
+## 42\. Running Postman Collection with Jenkins / Jenkins मधून कलेक्शन चालवणे
+
+## 
+
+*   **English:** Automate API tests in CI/CD pipeline.
+    
+*   **Marathi:** CI/CD पाइपलाइनमध्ये API टेस्ट ऑटोमेट करा.
+    
+
+* * *
+
+## 43\. How to Check APIs at the Network Layer using Developer Tools / Developer Tools वापरून नेटवर्क लेयरवर API तपासणे
+
+## 
+
+*   **English:** Open DevTools → Network tab → Filter by XHR/Fetch.
+    
+*   **Marathi:** DevTools उघडा → Network टॅब → XHR/Fetch ने फिल्टर करा.
+    
+
+* * *
+
+## 44\. How to Check Backend Services – APIs Running Behind / Backend Services तपासणे
+
+## 
+
+*   **English:** See which APIs load when a web page opens.
+    
+*   **Marathi:** वेब पेज उघडताना कोणते API लोड होत आहेत ते पहा.
+    
+
+* * *
+
+## 45\. What is Developer Tool in Chrome & How to Check Request/Response / Chrome Developer Tool म्हणजे काय आणि Request/Response कसे पहावे
+
+## 
+
+*   **English:** Chrome DevTools is a built-in web debugging tool. Check API calls in Network tab.
+    
+*   **Marathi:** Chrome DevTools हे वेब डीबगिंग टूल आहे. Network टॅबमध्ये API कॉल तपासा.
