@@ -43,7 +43,7 @@ It processes requests and sends responses.
 
 -------------------------------------------------------------------------------------------------------------------------------
 
-# HTTP Methods – Summary Report
+# HTTP Methods 
 
 | Method  | Purpose (English)                 | Safe? | Idempotent? | Common Success Codes |
 |---------|-----------------------------------|-------|-------------|----------------------|
@@ -54,6 +54,27 @@ It processes requests and sends responses.
 | DELETE  | Remove resource                    | No    | Yes         | 204, 200, 202        |
 | HEAD    | Retrieve headers only (no body)    | Yes   | Yes         | 200, 304             |
 | OPTIONS | Check supported methods / CORS     | Yes   | Yes         | 200, 204             |
+
+# 🌐 HTTP Status Codes 
+
+| **Code** | **Emoji** | **Meaning** |
+|----------|-----------|-------------|
+| **2xx – Success** | ✅ | Request was successful. |
+| 200 OK | 🟢 | The request succeeded. |
+| 201 Created | 🆕 | A new resource was successfully created. |
+| 204 No Content | 📭 | Request succeeded but no content returned. |
+
+| **4xx – Client Error** | ⚠️ | The request has an error from the client side. |
+| 400 Bad Request | ❌ | Malformed syntax or invalid data in the request. |
+| 401 Unauthorized | 🔑 | Authentication is required or has failed. |
+| 403 Forbidden | 🚫 | You don’t have permission to access the resource. |
+| 404 Not Found | 🕵️ | The requested resource does not exist. |
+
+| **5xx – Server Error** | 🛑 | Server failed to fulfill a valid request. |
+| 500 Internal Server Error | 💥 | A generic server-side error occurred. |
+| 502 Bad Gateway | 🌩️ | Server received an invalid response from an upstream server. |
+| 503 Service Unavailable | 💤 | Server is overloaded or under maintenance. |
+
 
 -------------------------------------------------------------------------------------------------------------------------------
 ### 
